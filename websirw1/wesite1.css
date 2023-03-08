@@ -1,0 +1,709 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gajraj+One&family=Merriweather+Sans:wght@300,700,900&family=Poppins:wght@100;300;700&900display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Gajraj One', cursive; */
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+body {
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: .1px;
+}
+
+.container{
+    width: 100%;
+height: 100%;
+}
+
+.header{
+    position: relative;
+    /* display: flex; */
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+    bottom: 19rem;
+    transform: translateY();
+}
+.navItems{
+    position: relative;
+    display: flex;
+    background-color: #27282c;
+    width: 70rem;
+    padding: 5px;
+    border-radius: 10px;
+    left: 5rem;
+}
+
+.navItems li {
+    position: relative;
+    list-style: none;
+    margin: 0 15px;
+    left: 15rem;
+}
+
+.navItems li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.navItems li a:hover{
+    color: #f26522 ;
+}
+
+.webname{
+   position: relative;
+   text-align: center;
+   bottom: rem;
+   right:1rem;
+   font-family: 'Poppins', sans-serif; 
+ font-weight: 700;
+ font-size: 40px;
+}
+
+.searchoption {
+    position: relative;
+   object-position: center;
+   left: 20rem;
+   bottom: 12rem;
+   background: transparent;
+   border: 1px solid black ;
+ width: 50rem;
+ height: 3rem;
+ padding: 16px;
+ font-size: 20px;
+ font-weight: 900;
+ border-radius: 5px;
+}
+
+.searchbar{
+    display: flex;
+    background: transparent;
+    height: 3rem;
+ border-radius: 5px;
+}
+.searchhere{
+    position: relative;
+left: 17rem;
+bottom: 12.1rem;
+font-size: 1.5rem;
+background: rgb(255, 193, 6);
+width: 3rem;
+padding: 10px;
+color: #fff;
+border-radius: 5px;
+height: 3.2rem;
+}
+
+.texttop{
+    position: relative;
+    bottom: 7rem;
+    font-size:4rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 900;
+    right: 1rem;
+    text-align: center;
+}
+
+.texttop2{
+    position: relative;
+    bottom: 6rem;
+    font-size:4rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 900;
+    right: 1rem;
+    text-align: center;
+} 
+
+.buynow{
+    position: relative;
+    left:33.5rem;
+    width: 11rem;
+    height: 3rem;
+    font-size: 15px;
+    font-weight: 800;
+    color: #ec0000;
+    background: #020202;
+    border-radius: 5px;
+    bottom: 3rem;
+}
+.buynow:hover{
+    background: #ffffff;
+    color: #000000;
+}
+
+.offer{
+    position: relative;
+    bottom: 9rem;
+    color: #f26522;
+    background-color:#27282c;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+}
+
+
+.jewelerybar{
+    position: relative;
+    bottom: 1rem;
+    color: #ff9100;
+    background-color:#27282c;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+}
+#jewelery{
+    position: relative;
+    text-align: center;
+    top: 2rem;
+    font-size: 50px;
+    transition: 1sec;
+    font-weight: 900;
+}
+
+.span1, .span2, .span3 {
+    display:inline-block;
+    position: relative;
+    content: '';
+    width: 21rem;
+    left: 4.5rem;
+    height: 30rem;
+    top: 4rem;
+    margin: 0 20px;
+}
+
+#img1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 25rem;
+    width:21rem;
+}
+#img1:hover{
+    box-shadow: 0 4px 8px 0 rgb(255, 2, 2), 0 6px 20px 0 rgb(251, 167, 0);
+}
+#jwelname {
+    position: relative;
+    bottom: 24rem;
+    left: 6.5rem;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+#jwelprice {
+    position: relative;
+    top: 18rem;
+    color: #ec0000;
+    left: -1rem;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+#jwelbuy {
+    position: relative;
+    text-decoration: none;
+    bottom: 5rem;
+    left: 17rem;
+    color: red;
+    font-weight: 600;
+    animation: buynow 0.5s infinite;
+}
+
+#jwelbuy:hover {
+    color: #000000;
+}
+@keyframes buynow {
+    50% {
+        opacity: 0;
+    }
+}
+
+.line {
+    position: relative;
+    top: 5rem;
+    height: 70px;
+    
+
+}
+
+.mansclothingbar{
+    position: relative;
+    top: 5rem;
+    color: #918883;
+    background-color:#27282c;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+}
+#mansclothing{
+    position: relative;
+    text-align: center;
+    top: 7rem;
+    font-size: 50px;
+    transition: 1sec;
+    font-weight: 900;
+}
+
+.mansclothing_ {
+    position: relative;
+    top: 15rem;
+}
+#img2 {
+    position: relative;
+    bottom: 5rem;
+    left: 1rem;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   width: 21rem;
+   height: 23rem;
+}
+#img2:hover{
+    box-shadow: 0 4px 8px 0 rgb(255, 2, 2), 0 6px 20px 0 rgb(251, 167, 0);
+}
+.part2{
+  position: relative;
+  top: 8rem;
+}
+
+#img3 {
+    position: relative;
+    bottom: 7rem;
+    left: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   width: 21rem;
+   height: 20rem;
+   border: 1px solid black;
+
+}
+#img3:hover{
+    box-shadow: 0 4px 8px 0 rgb(255, 2, 2), 0 6px 20px 0 rgb(251, 167, 0);
+}
+#manprice {
+    position: relative;
+    top: 25rem;
+    color: #ec0000;
+    left: -1rem;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+#manprice2 {
+    position: relative;
+    top: 23rem;
+    color: #ec0000;
+    left: -1rem;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+#hoodieimg {
+    position: relative;
+    bottom: 5rem;
+    left: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   width: 21rem;
+   height: 23rem;
+   border: 1px solid black;
+}
+#hoodieimg:hover{
+    box-shadow: 0 4px 8px 0 rgb(255, 2, 2), 0 6px 20px 0 rgb(251, 167, 0);
+}
+.spanman {
+    border: 1px solid black;
+}
+
+#jwelname1 {
+    position: relative;
+    bottom: 31rem;
+    left: 6.5rem;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.line1 {
+    position: relative;
+    top: 24rem;
+    height: 70px;
+    
+
+}
+.womansclothingbar{
+    position: relative;
+    top: 21rem;
+    color: #ec0000;
+    background-color:#27282c;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+}
+#womansclothing{
+    position: relative;
+    text-align: center;
+    top: 23rem;
+    font-size: 50px;
+    transition: 1sec;
+    font-weight: 900;
+}
+
+.womansclothing_ {
+    position: relative;
+    top: 31rem;
+}
+#womentop {
+    position: relative;
+    bottom: 5rem;
+    left: 1rem;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 20rem;
+   height: 23rem;
+}
+#womentop:hover{
+    box-shadow: 0 4px 8px 0 rgb(255, 2, 2), 0 6px 20px 0 rgb(251, 167, 0);
+}
+#womanprice {
+    position: relative;
+    top: 25rem;
+    color: #ec0000;
+    left: -1rem;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+#womenclothname {
+    position: relative;
+    bottom: 32rem;
+    left: 7.5rem;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.wrapper{
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 80px);
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    /* overflow: hidden; */
+    top: 18rem;
+}
+
+.wrapper::before{
+    position: absolute;
+    content: '';
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    left: -15%;
+    top: 10%;
+    background: linear-gradient(45deg,#f26522,pink);
+    animation: object1 12s linear infinite;
+}
+
+.wrapper::after{
+    position: absolute;
+    content: '';
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    left: 2%;
+    top: -5%;
+    background: linear-gradient(45deg,#ff9d00,pink);
+    animation: object2 6s linear infinite;
+}
+@keyframes object1{
+    50%{
+        left: 73%;
+        top: 93%;
+    }
+}
+@keyframes object2{
+    50%{
+        left: 85%;
+        top: -39%;
+    }
+}
+.wrapper1{
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 80px);
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    /* overflow: hidden; */
+    top: 18rem;
+    z-index: -1;
+}
+
+.wrapper1::before{
+    position: absolute;
+    content: '';
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    left: -15%;
+    top: 200%;
+    background: linear-gradient(45deg,#f26522,pink);
+    animation: object3 7s linear infinite;
+}
+
+.wrapper1::after{
+    position: absolute;
+    content: '';
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    left: 2%;
+    top: 205%;
+    background: linear-gradient(45deg,#e6930d,pink);
+    animation: newobj 14s linear infinite;
+}
+@keyframes object3{
+    50%{
+        left: 73%;
+        top: 963%;
+    }
+}
+@keyframes newobj{
+    50%{
+        left: 85%;
+        top: 968%;
+    }
+}
+
+.electronicbar{
+    position: relative;
+    top: 13rem;
+    color: #ec0000;
+    background-color:#27282c;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+}
+#electronic{
+    position: relative;
+    text-align: center;
+    top: 16rem;
+    font-size: 50px;
+    transition: 1sec;
+    font-weight: 900;
+}
+
+.electronic_ {
+    position: relative;
+    top: 23rem;
+}
+
+#electronicprice {
+    position: relative;
+    top: 25rem;
+    color: #ec0000;
+    left: -1rem;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+#electronicbox {
+    position: relative;
+    bottom: 5rem;
+    left: 1rem;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 20rem;
+   height: 23rem;
+   
+}
+#electronicbox:hover{
+    box-shadow: 0 4px 8px 0 rgb(255, 2, 2), 0 6px 20px 0 rgb(251, 167, 0);
+}
+
+.shoesmen{
+    position: relative;
+    top: 28rem;
+    color: #ec0000;
+    background-color:#27282c;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+}
+#shoeshead{
+    position: relative;
+    text-align: center;
+    top: 30rem;
+    font-size: 50px;
+    transition: 1sec;
+    font-weight: 900;
+    transition: 5s;
+}
+
+.shoespara_ {
+    position: relative;
+    top: 39rem;
+}
+#womentop {
+    position: relative;
+    bottom: 5rem;
+    left: 1rem;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 20rem;
+   height: 23rem;
+}
+#womentop:hover{
+    box-shadow: 0 4px 8px 0 rgb(255, 2, 2), 0 6px 20px 0 rgb(251, 167, 0);
+}
+#womanprice {
+    position: relative;
+    top: 25rem;
+    color: #ec0000;
+    left: -1rem;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+#shoesname {
+    position: relative;
+    bottom: 32rem;
+    left: 7.5rem;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+
+form {
+    position: relative;
+    top: 18rem;
+    left: 25rem;
+}
+
+.search-button{
+    background-color: #d3c1c1;
+    font-family: 'Poppins', sans-serif;
+    width: 28rem;
+    height: 2rem;
+    color: #ffffff;
+    font-weight: 800;
+    padding: 20px;
+    margin: 1px;
+    font-size: medium;
+    border-radius: 5px;
+}
+.submit-button {
+    position: relative;
+    border-radius: 5px;
+    width: 10rem;
+    color: #ec0000;
+    right: 7.4rem;
+    background-color: #918883;
+    width: 7rem;
+    height: 2.8rem;
+    margin: 1px;
+    bottom:rem;
+    font-weight: 800;
+    font-size: large;
+    border-bottom: none;
+    border-top: none;
+}
+input::placeholder {
+    color: #fff;
+    font-weight: 400;
+    padding: 30px;
+    
+}
+
+footer {
+    background-color: #27282c;
+    position: relative;
+    top: 30rem;
+    width:100%;
+    height: 20rem;
+    
+}
+
+.footername {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    top: 4rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+.helpline {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    top: 6rem;
+    font-size: 1.5rem;
+}
+font {
+    color: #ec0000;
+}
+
+.copyright {
+    position: relative;
+    color: #fff;
+    top: 13rem;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+::-webkit-scrollbar-track {
+    color: red;
+}
+::-webkit-scrollbar {
+    color: red;
+}
+
+/* .fa-brands, .fa-twitter, .fa-phone {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    top: 7rem;
+    font-size: 2rem;
+    letter-spacing: 190px;
+
+} */
+
+.instagram,
+.twitter,
+.phone {
+    position: relative;
+    color: #ff9d00;
+    text-decoration: none;
+    text-align: center;
+    left: 16rem;
+    top: 7rem;
+    font-size: 1.6rem;
+    margin: 0 50px;
+}
